@@ -31,7 +31,7 @@ int main(void) {
     scanf("%f", &purchase_amount);
 	
 	// Complete your code here
-	if (){  // todo
+	if (account_balance >= purchase_amount){  // todo
 		// todo
 		printf("Transaction Approved. Remaining balance %.2f\n", account_balance);
 	}
