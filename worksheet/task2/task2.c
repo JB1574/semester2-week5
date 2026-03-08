@@ -32,18 +32,12 @@ int main(void){
 				value  = hex[i] - 'a' + 10 ; // value = hex[i] -97 + 10
 		decimal = decimal * 16 + value ;
 		}
+		// print decimal result
 		printf("decimal:%ld\n", decimal);
-	} // if  a number is given 
+	} 
 	else {
 		printf("Error: Invalid Hexadecimal\n");
 	}
-
-
-	// printf("Error: Invalid Hexadecimal\n");
-	
-	
-	// print the decimal result
-	
 
 	return 0;
 }
